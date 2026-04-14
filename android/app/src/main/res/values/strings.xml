@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RakshaSetu</string>
+    <string name="title_activity_main">RakshaSetu</string>
+    <string name="package_name">com.raksha.setu</string>
+    <string name="custom_url_scheme">com.raksha.setu</string>
+</resources>
