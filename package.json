@@ -1,13 +1,19 @@
 {
   "name": "raksha-setu-mobile",
   "version": "1.0.0",
-  "description": "",
+  "description": "Raksha Setu Mobile App - Emergency SOS & Healthcare",
   "main": "index.js",
   "scripts": {
+    "build-web": "cd ../projectsewt/projectsewt/client && npm run build",
+    "copy-web": "npx cap copy",
+    "sync": "npx cap sync",
+    "build": "npm run build-web && xcopy /E /I /Y \"..\\projectsewt\\projectsewt\\client\\dist\\*\" \"www\\\" && npm run sync",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["emergency", "healthcare", "sos", "mobile"],
+  "author": "Raksha Setu Team",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
