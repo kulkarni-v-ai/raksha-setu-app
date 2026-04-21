@@ -2,11 +2,6 @@
   "appId": "com.raksha.setu",
   "appName": "RakshaSetu",
   "webDir": "www",
-  "server": {
-    "url": "https://raksha-setu-osfc.onrender.com",
-    "cleartext": true,
-    "androidScheme": "https"
-  },
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 2000,
