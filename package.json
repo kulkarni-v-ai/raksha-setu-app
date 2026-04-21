@@ -12,7 +12,12 @@
     "open:ios": "npx cap open ios",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["emergency", "healthcare", "sos", "mobile"],
+  "keywords": [
+    "emergency",
+    "healthcare",
+    "sos",
+    "mobile"
+  ],
   "author": "Raksha Setu Team",
   "license": "ISC",
   "type": "commonjs",
@@ -20,6 +25,8 @@
     "@capacitor/android": "^8.3.0",
     "@capacitor/cli": "^8.3.0",
     "@capacitor/core": "^8.3.0",
+    "@capacitor/geolocation": "^8.2.0",
+    "@capacitor/haptics": "^8.0.2",
     "@capacitor/ios": "^8.3.0"
   }
 }
